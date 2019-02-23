@@ -13,6 +13,7 @@ body {
     background-color: #fff;
     color: #434a54;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
 }
 
 .header {
@@ -49,6 +50,11 @@ img {
     border: 0;
     width: 100%;
     height: auto;
+}
+
+.p-main {
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .p-small {

@@ -13,7 +13,7 @@
                         <figcaption class="caption">
                             <h1 class="caption-title"><%# Eval("Headline") %></h1>
                             <p class="p-small">Category: <%# Eval("Category") %></p>
-				            <p><%# Eval("Description") %></p>
+				            <p class="p-main"><%# Eval("Description") %></p>
                         </figcaption>
                     </figure> 
                 </ItemTemplate>
