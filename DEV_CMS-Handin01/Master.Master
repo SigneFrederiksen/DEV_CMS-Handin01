@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="DEV_CMS_Handin01.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>DEV CMS Template - Hand in 1</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="header">
+                <div class="businessInfo">
+                    <asp:Image ID="ImageLogo" runat="server" CssClass="logoImg" />
+                    <asp:Label ID="LabelCompany" runat="server" Text="label" CssClass="company"></asp:Label>
+                </div>
+                <div class="admin">
+                    <asp:Image ID="ImageIcon" runat="server" CssClass="adminIcon" ImageUrl="~/Pictures/icon03.png" />
+                    <asp:Button ID="ButtonBackend" runat="server" Text="Admin (backend)" CssClass="buttonBackend" PostBackUrl="~/Editor.aspx" />
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+                <asp:Label ID="LabelFooter1" runat="server" Text="Cphbusiness project 2019, 2. Semester DEV/CMS"></asp:Label><br />
+                <asp:Label ID="LabelFooter2" runat="server" Text="@ Signe Frederiksen"></asp:Label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -67,12 +67,97 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\ThemeCMS\StyleSheetCMS.css" />
+    <Content Include="Editor.aspx" />
+    <Content Include="Editor_Company.aspx" />
+    <Content Include="Editor_Items.aspx" />
+    <Content Include="Editor_Jokes.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Pictures\caps01.jpg" />
+    <Content Include="Pictures\caps02.jpg" />
+    <Content Include="Pictures\icon01.png" />
+    <Content Include="Pictures\icon02.png" />
+    <Content Include="Pictures\icon03.png" />
+    <Content Include="Pictures\icon04.png" />
+    <Content Include="Pictures\jacket01.jpg" />
+    <Content Include="Pictures\jacket02.jpg" />
+    <Content Include="Pictures\joke01.jpg" />
+    <Content Include="Pictures\joke02.jpg" />
+    <Content Include="Pictures\joke03.jpg" />
+    <Content Include="Pictures\joke04.jpg" />
+    <Content Include="Pictures\logo01.png" />
+    <Content Include="Pictures\sneakers01.jpg" />
+    <Content Include="Pictures\sneakers02.jpg" />
+    <Content Include="Pictures\sweatshirt01.jpg" />
+    <Content Include="Pictures\sweatshirt02.jpg" />
+    <Content Include="Pictures\sweatshirt03.jpeg" />
+    <Content Include="Pictures\tshirt01.jpg" />
+    <Content Include="Pictures\tshirt02.png" />
+    <Content Include="Selection.aspx" />
+    <Content Include="Upload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Editor.aspx.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor.aspx.designer.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editor_Company.aspx.cs">
+      <DependentUpon>Editor_Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor_Company.aspx.designer.cs">
+      <DependentUpon>Editor_Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editor_Items.aspx.cs">
+      <DependentUpon>Editor_Items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor_Items.aspx.designer.cs">
+      <DependentUpon>Editor_Items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editor_Jokes.aspx.cs">
+      <DependentUpon>Editor_Jokes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor_Jokes.aspx.designer.cs">
+      <DependentUpon>Editor_Jokes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selection.aspx.cs">
+      <DependentUpon>Selection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Selection.aspx.designer.cs">
+      <DependentUpon>Selection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Master.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +166,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
